@@ -1,0 +1,271 @@
+;#<FEEDBACK># ARM Linker, 5060061: Last Updated: Tue Dec 22 18:03:13 2015
+;VERSION 0.2
+;FILE acmp_8xx.o
+Chip_ACMP_Deinit <= USED 0
+Chip_ACMP_EdgeClear <= USED 0
+Chip_ACMP_Init <= USED 0
+Chip_ACMP_SetEdgeSelection <= USED 0
+Chip_ACMP_SetHysteresis <= USED 0
+Chip_ACMP_SetNegVoltRef <= USED 0
+Chip_ACMP_SetPosVoltRef <= USED 0
+Chip_ACMP_SetupAMCPRefs <= USED 0
+Chip_ACMP_SetupVoltLadder <= USED 0
+__asm___10_acmp_8xx_c_01bd7939____REV16 <= USED 0
+__asm___10_acmp_8xx_c_01bd7939____REVSH <= USED 0
+;FILE adc_8xx.o
+Chip_ADC_DeInit <= USED 0
+Chip_ADC_Init <= USED 0
+Chip_ADC_StartCalibration <= USED 0
+__asm___9_adc_8xx_c_70a82504____REV16 <= USED 0
+__asm___9_adc_8xx_c_70a82504____REVSH <= USED 0
+;FILE clock_8xx.o
+Chip_Clock_GetIOCONCLKDIVClockRate <= USED 0
+Chip_Clock_SetCLKOUTSource <= USED 0
+Chip_Clock_SetIOCONCLKDIV <= USED 0
+Chip_Clock_SetMainClockSource <= USED 0
+Chip_Clock_SetPLLBypass <= USED 0
+Chip_Clock_SetSystemPLLSource <= USED 0
+__asm___11_clock_8xx_c_49830408____REV16 <= USED 0
+__asm___11_clock_8xx_c_49830408____REVSH <= USED 0
+;FILE crc_8xx.o
+Chip_CRC_CRC16 <= USED 0
+Chip_CRC_CRC32 <= USED 0
+Chip_CRC_CRC8 <= USED 0
+Chip_CRC_Deinit <= USED 0
+Chip_CRC_Init <= USED 0
+Chip_CRC_UseDefaultConfig <= USED 0
+__asm___9_crc_8xx_c_36838b8d____REV16 <= USED 0
+__asm___9_crc_8xx_c_36838b8d____REVSH <= USED 0
+;FILE debug.o
+__asm___7_Debug_c_59d48361____REV16 <= USED 0
+__asm___7_Debug_c_59d48361____REVSH <= USED 0
+hexDumpDebug <= USED 0
+;FILE dma_8xx.o
+__asm___9_dma_8xx_c____REV16 <= USED 0
+__asm___9_dma_8xx_c____REVSH <= USED 0
+;FILE eeprom.o
+Chip_EEPROM_Read <= USED 0
+Chip_EEPROM_Write <= USED 0
+__asm___8_eeprom_c_c5e698e1____REV16 <= USED 0
+__asm___8_eeprom_c_c5e698e1____REVSH <= USED 0
+;FILE gpio_8xx.o
+Chip_GPIO_DeInit <= USED 0
+Chip_GPIO_Init <= USED 0
+__asm___10_gpio_8xx_c_865ca226____REV16 <= USED 0
+__asm___10_gpio_8xx_c_865ca226____REVSH <= USED 0
+;FILE hal_cm1.o
+OS_Tick_Handler <= USED 0
+_alloc_box <= USED 0
+_free_box <= USED 0
+rt_get_PSP <= USED 0
+;FILE i2c_common_8xx.o
+Chip_I2C_DeInit <= USED 0
+Chip_I2C_Init <= USED 0
+__asm___16_i2c_common_8xx_c_2cf5dba0____REV16 <= USED 0
+__asm___16_i2c_common_8xx_c_2cf5dba0____REVSH <= USED 0
+;FILE i2cm_8xx.o
+Chip_I2CM_SetBusSpeed <= USED 0
+Chip_I2CM_Xfer <= USED 0
+Chip_I2CM_XferBlocking <= USED 0
+Chip_I2CM_XferHandler <= USED 0
+__asm___10_i2cm_8xx_c_b9e2fb71____REV16 <= USED 0
+__asm___10_i2cm_8xx_c_b9e2fb71____REVSH <= USED 0
+;FILE i2cs_8xx.o
+Chip_I2CS_XferHandler <= USED 0
+__asm___10_i2cs_8xx_c_fb063d30____REV16 <= USED 0
+__asm___10_i2cs_8xx_c_fb063d30____REVSH <= USED 0
+;FILE iap.o
+Chip_IAP_BlankCheckSector <= USED 0
+Chip_IAP_Compare <= USED 0
+Chip_IAP_CopyRamToFlash <= USED 0
+Chip_IAP_ErasePage <= USED 0
+Chip_IAP_EraseSector <= USED 0
+Chip_IAP_PreSectorForReadWrite <= USED 0
+Chip_IAP_ReadBootCode <= USED 0
+Chip_IAP_ReadPID <= USED 0
+Chip_IAP_ReadUID <= USED 0
+Chip_IAP_ReinvokeISP <= USED 0
+__asm___5_iap_c_ec493fae____REV16 <= USED 0
+__asm___5_iap_c_ec493fae____REVSH <= USED 0
+;FILE iocon_8xx.o
+Chip_IOCON_PinSetClockDivisor <= USED 0
+Chip_IOCON_PinSetHysteresis <= USED 0
+Chip_IOCON_PinSetI2CMode <= USED 0
+Chip_IOCON_PinSetInputInverted <= USED 0
+Chip_IOCON_PinSetOpenDrainMode <= USED 0
+Chip_IOCON_PinSetSampleMode <= USED 0
+Chip_IOCON_SetPinMuxing <= USED 0
+__asm___11_iocon_8xx_c_a80ef4c4____REV16 <= USED 0
+__asm___11_iocon_8xx_c_a80ef4c4____REVSH <= USED 0
+;FILE irc_8xx.o
+Chip_IRC_SetFreq <= USED 0
+Chip_IRC_SetFreq_ROM <= USED 0
+__asm___9_irc_8xx_c_5b03a845____REV16 <= USED 0
+__asm___9_irc_8xx_c_5b03a845____REVSH <= USED 0
+;FILE main.o
+__asm___6_main_c_f9afa1dd____REV16 <= USED 0
+__asm___6_main_c_f9afa1dd____REVSH <= USED 0
+;FILE mmi.o
+__asm___5_MMI_C_12880633____REV16 <= USED 0
+__asm___5_MMI_C_12880633____REVSH <= USED 0
+getConfigMMI <= USED 0
+;FILE pinint_8xx.o
+Chip_PININT_SetPatternMatchConfig <= USED 0
+Chip_PININT_SetPatternMatchSrc <= USED 0
+__asm___12_pinint_8xx_c_e2d7615c____REV16 <= USED 0
+__asm___12_pinint_8xx_c_e2d7615c____REVSH <= USED 0
+;FILE pmu_8xx.o
+Chip_PMU_DeepPowerDownState <= USED 0
+Chip_PMU_DeepSleepState <= USED 0
+Chip_PMU_PowerDownState <= USED 0
+Chip_PMU_Sleep <= USED 0
+Chip_PMU_SleepState <= USED 0
+__asm___9_pmu_8xx_c_477f3924____REV16 <= USED 0
+__asm___9_pmu_8xx_c_477f3924____REVSH <= USED 0
+;FILE ring_buffer.o
+RingBuffer_Init <= USED 0
+RingBuffer_Insert <= USED 0
+RingBuffer_InsertMult <= USED 0
+RingBuffer_Pop <= USED 0
+RingBuffer_PopMult <= USED 0
+;FILE rt_event.o
+isr_evt_set <= USED 0
+rt_evt_clr <= USED 0
+rt_evt_get <= USED 0
+rt_evt_set <= USED 0
+rt_evt_wait <= USED 0
+;FILE rt_list.o
+rt_get_same_rdy_prio <= USED 0
+rt_psq_enq <= USED 0
+;FILE rt_mailbox.o
+isr_mbx_receive <= USED 0
+isr_mbx_send <= USED 0
+rt_mbx_check <= USED 0
+rt_mbx_init <= USED 0
+rt_mbx_send <= USED 0
+rt_mbx_wait <= USED 0
+;FILE rt_membox.o
+_calloc_box <= USED 0
+;FILE rt_mutex.o
+;FILE rt_robin.o
+;FILE rt_semaphore.o
+isr_sem_send <= USED 0
+rt_sem_init <= USED 0
+rt_sem_send <= USED 0
+rt_sem_wait <= USED 0
+;FILE rt_system.o
+os_tick_irqack <= USED 0
+rt_psh_req <= USED 0
+rt_resume <= USED 0
+rt_suspend <= USED 0
+rt_tsk_lock <= USED 0
+rt_tsk_unlock <= USED 0
+;FILE rt_task.o
+rt_tsk_delete <= USED 0
+rt_tsk_pass <= USED 0
+rt_tsk_prio <= USED 0
+rt_tsk_self <= USED 0
+;FILE rt_time.o
+rt_itv_set <= USED 0
+rt_itv_wait <= USED 0
+rt_time_get <= USED 0
+;FILE rt_timer.o
+rt_tmr_create <= USED 0
+rt_tmr_kill <= USED 0
+;FILE rtc_ut.o
+ConvertRtcTime <= USED 0
+ConvertTimeRtc <= USED 0
+__asm___8_rtc_ut_c_c71c6a9e____REV16 <= USED 0
+__asm___8_rtc_ut_c_c71c6a9e____REVSH <= USED 0
+;FILE rtx_conf_cm.o
+__user_perthread_libspace <= USED 0
+_mutex_acquire <= USED 0
+_mutex_initialize <= USED 0
+_mutex_release <= USED 0
+;FILE sct_8xx.o
+Chip_SCT_DeInit <= USED 0
+Chip_SCT_Init <= USED 0
+Chip_SCT_SetClrControl <= USED 0
+Chip_SCT_SetConflictResolution <= USED 0
+__asm___9_sct_8xx_c_95421fff____REV16 <= USED 0
+__asm___9_sct_8xx_c_95421fff____REVSH <= USED 0
+;FILE sct_pwm_8xx.o
+Chip_SCTPWM_SetOutPin <= USED 0
+Chip_SCTPWM_SetRate <= USED 0
+__asm___13_sct_pwm_8xx_c_0e172190____REV16 <= USED 0
+__asm___13_sct_pwm_8xx_c_0e172190____REVSH <= USED 0
+;FILE spi_8xx.o
+Chip_SPI_CalClkRateDivider <= USED 0
+Chip_SPI_DelayConfig <= USED 0
+Chip_SPI_Int_Cmd <= USED 0
+Chip_SPI_Int_RWFrames <= USED 0
+Chip_SPI_RWFrames_Blocking <= USED 0
+Chip_SPI_ReadFrames_Blocking <= USED 0
+Chip_SPI_WriteFrames_Blocking <= USED 0
+__asm___9_spi_8xx_c_6f8a2c72____REV16 <= USED 0
+__asm___9_spi_8xx_c_6f8a2c72____REVSH <= USED 0
+;FILE spim_8xx.o
+Chip_SPIM_AssertSSEL <= USED 0
+Chip_SPIM_DeAssertSSEL <= USED 0
+Chip_SPIM_DelayConfig <= USED 0
+Chip_SPIM_GetClockRate <= USED 0
+Chip_SPIM_SetClockRate <= USED 0
+Chip_SPIM_Xfer <= USED 0
+Chip_SPIM_XferBlocking <= USED 0
+Chip_SPIM_XferHandler <= USED 0
+__asm___10_spim_8xx_c_dc608f0c____REV16 <= USED 0
+__asm___10_spim_8xx_c_dc608f0c____REVSH <= USED 0
+;FILE spis_8xx.o
+Chip_SPIS_XferBlocking <= USED 0
+Chip_SPIS_XferHandler <= USED 0
+__asm___10_spis_8xx_c_d11d976b____REV16 <= USED 0
+__asm___10_spis_8xx_c_d11d976b____REVSH <= USED 0
+;FILE startup_lpc82x.o
+;FILE stopwatch_8xx.o
+StopWatch_Init <= USED 0
+StopWatch_MsToTicks <= USED 0
+StopWatch_Start <= USED 0
+StopWatch_TicksPerSecond <= USED 0
+StopWatch_TicksToMs <= USED 0
+StopWatch_TicksToUs <= USED 0
+StopWatch_UsToTicks <= USED 0
+__asm___15_stopwatch_8xx_c_cf0aa0a6____REV16 <= USED 0
+__asm___15_stopwatch_8xx_c_cf0aa0a6____REVSH <= USED 0
+;FILE swm_8xx.o
+Chip_SWM_FixedPinEnable <= USED 0
+__asm___9_swm_8xx_c_b99bd6fc____REV16 <= USED 0
+__asm___9_swm_8xx_c_b99bd6fc____REVSH <= USED 0
+;FILE syscon_8xx.o
+Chip_SYSCTL_PowerDown <= USED 0
+Chip_SYSCTL_SetDeepSleepPD <= USED 0
+Chip_SYSCTL_SetWakeup <= USED 0
+__asm___12_syscon_8xx_c_89326d4c____REV16 <= USED 0
+__asm___12_syscon_8xx_c_89326d4c____REVSH <= USED 0
+;FILE system_lpc82x.o
+__asm___15_system_LPC82x_c_5d646a67____REV16 <= USED 0
+__asm___15_system_LPC82x_c_5d646a67____REVSH <= USED 0
+;FILE uart0.o
+__asm___7_UART0_C_bb43f66e____REV16 <= USED 0
+__asm___7_UART0_C_bb43f66e____REVSH <= USED 0
+;FILE uart_8xx.o
+Chip_UART_DeInit <= USED 0
+Chip_UART_IRQRBHandler <= USED 0
+Chip_UART_RXIntHandlerRB <= USED 0
+Chip_UART_Read <= USED 0
+Chip_UART_ReadBlocking <= USED 0
+Chip_UART_ReadRB <= USED 0
+Chip_UART_SendRB <= USED 0
+Chip_UART_TXIntHandlerRB <= USED 0
+__asm___10_uart_8xx_c_b8b3c308____REV16 <= USED 0
+__asm___10_uart_8xx_c_b8b3c308____REVSH <= USED 0
+;FILE wkt_8xx.o
+Chip_WKT_GetClockRate <= USED 0
+Chip_WKT_SetClockSource <= USED 0
+Chip_WKT_Start <= USED 0
+__asm___9_wkt_8xx_c_fcde13a2____REV16 <= USED 0
+__asm___9_wkt_8xx_c_fcde13a2____REVSH <= USED 0
+;FILE wwdt_8xx.o
+Chip_WWDT_ClearStatusFlag <= USED 0
+Chip_WWDT_DeInit <= USED 0
+__asm___10_wwdt_8xx_c_289f7ad6____REV16 <= USED 0
+__asm___10_wwdt_8xx_c_289f7ad6____REVSH <= USED 0
