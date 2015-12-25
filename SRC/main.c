@@ -107,7 +107,7 @@ static __asm void BootJump(unsigned int firmwareStartAddress) {
 	Chip_WWDT_Start(LPC_WWDT);
 	initMMI();
 	OS_WAIT(1000);
-
+ 
 	// If button is pressed, do NOT start firmware
 	// otherwise start firmware if present
 	if (buttonMMI()==FALSE) {

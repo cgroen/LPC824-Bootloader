@@ -1268,23 +1268,23 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-         0          0          0          0          0       3976   acmp_8xx.o
-       364         60         64          0          0      13948   clock_8xx.o
+         0          0          0          0          0       3984   acmp_8xx.o
+       364         60         64          0          0      13968   clock_8xx.o
         26          0          0          0          0         72   i2cm_8xx.o
-        18          0          0          0          0       2612   iocon_8xx.o
-       522         78          8          0       1280      15699   main.o
-       228         20          0          8          0       5332   mmi.o
-         6          0         32          4        780      11076   rtx_conf_cm.o
-        32         12        192          0        512        816   startup_lpc82x.o
-        36          6          0          0          0       2652   swm_8xx.o
+        18          0          0          0          0       2620   iocon_8xx.o
+       522         78          8          0       1280      15719   main.o
+       228         20          0          8          0       5336   mmi.o
+         6          0         32          4        780      11084   rtx_conf_cm.o
+        32         12        192          0        512        820   startup_lpc82x.o
+        36          6          0          0          0       2656   swm_8xx.o
         32         10          0          0          0        510   syscon_8xx.o
-       356        100          0          4          0       1407   system_lpc82x.o
-       140         26          0          0          0      10407   uart0.o
-       162         34          0          0          0       6995   uart_8xx.o
-        52         16          0          0          0        533   wwdt_8xx.o
+       356        100          0          4          0       1419   system_lpc82x.o
+       140         26          0          0          0      10411   uart0.o
+       162         34          0          0          0       7015   uart_8xx.o
+        52         16          0          0          0        537   wwdt_8xx.o
 
     ----------------------------------------------------------------------
-      1982        362        336         16       2572      76035   Object Totals
+      1982        362        336         16       2572      76151   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          8          0          8          0          0          0   (incl. Padding)
 
@@ -1348,8 +1348,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      5524        716        340         52       2676      94928   Grand Totals
-      5524        716        340         52       2676      94928   ELF Image Totals
+      5524        716        340         52       2676      95044   Grand Totals
+      5524        716        340         52       2676      95044   ELF Image Totals
       5524        716        340         52          0          0   ROM Totals
 
 ==============================================================================
